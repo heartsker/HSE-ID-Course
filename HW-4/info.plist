@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>ru</string>
+		<string>en</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>$(GOOGLE_AUTH_REVERSED_CLIENT_ID)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>$(GOOGLE_AUTH_REVERSED_CLIENT_ID)</string>
+			</array>
+		</dict>
+	</array>
+	<key>COURSES_ENDPOINT</key>
+	<string>$(COURSES_ENDPOINT)</string>
+	<key>GIDClientID</key>
+	<string>$(GOOGLE_AUTH_CLIENT_ID)</string>
+	<key>GIDServerClientID</key>
+	<string>$(GOOGLE_AUTH_SERVER_SECRET)</string>
+	<key>GITHUB_API_ENDPOINT</key>
+	<string>$(GITHUB_API_ENDPOINT)</string>
+	<key>GITHUB_PAT</key>
+	<string>$(GITHUB_PAT)</string>
+	<key>NOTION_API_TOKEN</key>
+	<string>$(NOTION_API_TOKEN)</string>
+	<key>SITE_URL</key>
+	<string>$(SITE_URL)</string>
+	<key>TEST_TOPIC_ID</key>
+	<string>$(TEST_TOPIC_ID)</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIImageName</key>
+		<string>Launch screen</string>
+	</dict>
+</dict>
+</plist>
